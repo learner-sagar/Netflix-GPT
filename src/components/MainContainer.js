@@ -7,7 +7,6 @@ const MainContainer = () => {
   if (!movies) return;
   const mainMovie = movies[0];
   const { id, original_title, overview } = mainMovie;
-  console.log(mainMovie);
   return (
     <div>
       <div className="absolute top-0 t-0 z-10 bg-gradient-to-r from-black">
